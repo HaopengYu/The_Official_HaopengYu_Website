@@ -86,14 +86,21 @@ $include-html-global-classes: $include-html-classes;
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Sansita:700');
+
+// Variables Google Fonts
+$oxygenFont: 'Oxygen', sans-serif;
+$sansitaFont: 'Sansita', serif;
+
 // We use these to define default font stacks
-// $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-// $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-sans-serif: $oxygenFont;
+$font-family-serif: $sansitaFont;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
-// $font-weight-bold: bold;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -115,9 +122,29 @@ $include-html-global-classes: $include-html-classes;
 // $jet         : #222222;
 // $black       : #000000;
 
+// Haopeng Yu Color Ways:
+
+$cranberry:                  #D95585;
+$charm:                       #D96884;
+$nightShadz:               #BF3953;
+$maroonOak:              #590C13;
+
+// Haopeng Yu Color Ways Website Names:
+
+$primary-color-one: $cranberry;
+$primary-color-two: $charm;
+$primary-color-three: $nightShadz;
+$primary-color-four: $maroonOak;
+
+// Grey Color ways:
+
+$mineShaft:     #222222;
+$thunder:         #191518;
+
+
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: $primary-color-one;
+$secondary-color: $primary-color-four;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
