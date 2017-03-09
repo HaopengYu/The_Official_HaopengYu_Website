@@ -14972,3 +14972,27 @@ th.hide-for-touch {
   margin: 0 auto;
   margin-top: 1.125rem;
 }
+
+/* line 2, ../scss/partials/_footer.scss */
+footer .smallFooter {
+  border-top: 1px solid #D95585;
+  height: 6.25rem;
+  padding-top: 1rem;
+}
+/* line 7, ../scss/partials/_footer.scss */
+footer .smallFooter .disclaimerContent a {
+  display: inline-block;
+}
+/* line 14, ../scss/partials/_footer.scss */
+footer ul.socialMedia {
+  list-style: none;
+}
+/* line 16, ../scss/partials/_footer.scss */
+footer ul.socialMedia li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+/* line 20, ../scss/partials/_footer.scss */
+footer ul.socialMedia li:nth-of-type(1) {
+  margin-left: 0.5rem;
+}
