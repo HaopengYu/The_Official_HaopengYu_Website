@@ -6190,6 +6190,8 @@ label.error {
 .joyride-tip-guide h2,
 .joyride-tip-guide h3,
 .joyride-tip-guide h4,
+.joyride-tip-guide .w3IconBlock li h2,
+.w3IconBlock li .joyride-tip-guide h2,
 .joyride-tip-guide h5,
 .joyride-tip-guide h6 {
   color: #FFFFFF;
@@ -6817,16 +6819,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel .w3IconBlock li h2, .w3IconBlock li .panel h2, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel .w3IconBlock li h2, .w3IconBlock li .panel h2, .panel h5, .panel h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel .w3IconBlock li h2.subheader, .w3IconBlock li .panel h2.subheader, .panel h5.subheader, .panel h6.subheader {
   line-height: 1.4;
 }
 /* line 88, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6848,16 +6850,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout .w3IconBlock li h2, .w3IconBlock li .panel.callout h2, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout .w3IconBlock li h2, .w3IconBlock li .panel.callout h2, .panel.callout h5, .panel.callout h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout .w3IconBlock li h2.subheader, .w3IconBlock li .panel.callout h2.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
   line-height: 1.4;
 }
 /* line 90, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -8129,13 +8131,13 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 /* line 214, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name .w3IconBlock li h2, .w3IconBlock li .top-bar .name h2, .top-bar .name p, .top-bar .name span {
   font-size: 1.0625rem;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name .w3IconBlock li h2 a, .w3IconBlock li .top-bar .name h2 a, .top-bar .name p a, .top-bar .name span a {
   color: #FFFFFF;
   display: block;
   font-weight: normal;
@@ -8585,6 +8587,8 @@ meta.foundation-mq-topbar {
   .top-bar .name h2 a,
   .top-bar .name h3 a,
   .top-bar .name h4 a,
+  .top-bar .name .w3IconBlock li h2 a,
+  .w3IconBlock li .top-bar .name h2 a,
   .top-bar .name h5 a,
   .top-bar .name h6 a {
     width: auto;
@@ -9069,6 +9073,7 @@ h1,
 h2,
 h3,
 h4,
+.w3IconBlock li h2,
 h5,
 h6,
 pre,
@@ -9121,7 +9126,7 @@ p aside {
 
 /* Default header styles */
 /* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, .w3IconBlock li h2, h5, h6 {
   color: #222222;
   font-family: "Sansita", serif;
   font-style: normal;
@@ -9132,7 +9137,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 /* line 265, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+h1 small, h2 small, h3 small, h4 small, .w3IconBlock li h2 small, h5 small, h6 small {
   color: #6f6f6f;
   font-size: 60%;
   line-height: 0;
@@ -9154,7 +9159,7 @@ h3 {
 }
 
 /* line 275, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h4 {
+h4, .w3IconBlock li h2 {
   font-size: 1.125rem;
 }
 
@@ -9382,7 +9387,7 @@ blockquote p {
 
 @media only screen and (min-width: 40.0625em) {
   /* line 461, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, .w3IconBlock li h2, h5, h6 {
     line-height: 1.4;
   }
 
@@ -9402,7 +9407,7 @@ blockquote p {
   }
 
   /* line 465, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h4 {
+  h4, .w3IconBlock li h2 {
     font-size: 1.4375rem;
   }
 
@@ -9539,14 +9544,14 @@ blockquote p {
   position: relative;
 }
 /* line 185, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar .w3IconBlock li h2, .w3IconBlock li .tab-bar h2, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
   font-weight: bold;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 191, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar .w3IconBlock li h2, .w3IconBlock li .tab-bar h2 {
   font-size: 1.125rem;
 }
 
@@ -14770,14 +14775,14 @@ th.hide-for-touch {
 /* Slider */
 /* line 45, ../bower_components/slick-carousel/slick/slick-theme.scss */
 .slick-loading .slick-list {
-  background: #fff url('/img/ajax-loader.gif?1483541336') center center no-repeat;
+  background: #fff url('/img/ajax-loader.gif?1488375219') center center no-repeat;
 }
 
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: url('/fonts/slick.eot?1483541336');
-  src: url('/fonts/slick.eot?&1483541336#iefix') format("embedded-opentype"), url('/fonts/slick.woff?1483541336') format("woff"), url('/fonts/slick.ttf?1483541336') format("truetype"), url('/fonts/slick.svg?1483541336#slick') format("svg");
+  src: url('/fonts/slick.eot?1488375219');
+  src: url('/fonts/slick.eot?&1488375219#iefix') format("embedded-opentype"), url('/fonts/slick.woff?1488375219') format("woff"), url('/fonts/slick.ttf?1488375219') format("truetype"), url('/fonts/slick.svg?1488375219#slick') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -14939,4 +14944,31 @@ th.hide-for-touch {
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
+}
+
+/* line 6, ../scss/partials/_base.scss */
+.widgetTitle {
+  margin-bottom: 2rem;
+}
+
+/* line 1, ../scss/partials/_w3IconBlock.scss */
+.w3IconBlock {
+  margin: 2rem 0 2rem 0;
+  background-color: #FAFAFA;
+}
+/* line 5, ../scss/partials/_w3IconBlock.scss */
+.w3IconBlock li i {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #D95585;
+  margin-bottom: 1.125rem;
+}
+/* line 13, ../scss/partials/_w3IconBlock.scss */
+.w3IconBlock li h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #D95585;
+  width: 3.125rem;
+  margin: 0 auto;
+  margin-top: 1.125rem;
 }

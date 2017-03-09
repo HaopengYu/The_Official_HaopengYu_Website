@@ -1,0 +1,19 @@
+.w3IconBlock{
+  margin: $widgetMargin 0 $widgetMargin 0;
+  background-color: $ghost;
+  li{
+    i{
+      font-size: 2.5rem;
+      text-align: center;
+      color:$primary-color-one;
+      margin-bottom: $marginSmallTop;
+    }
+    h2{
+      @extend h4;
+      &:after{
+        @include HrLine;
+        margin-top: $marginSmallTop;
+      }
+    }
+  }
+}
