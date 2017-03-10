@@ -14951,6 +14951,14 @@ th.hide-for-touch {
   margin-bottom: 2rem;
 }
 
+/* line 18, ../scss/partials/_base.scss */
+.primaryButton {
+  border-radius: 1.3125rem;
+  background-color: #D96884;
+  padding: 0.5rem;
+  box-shadow: 0px 5px 5px rgba(217, 104, 132, 0.2);
+}
+
 /* line 1, ../scss/partials/_w3IconBlock.scss */
 .w3IconBlock {
   margin: 2rem 0 2rem 0;
@@ -14971,6 +14979,19 @@ th.hide-for-touch {
   width: 3.125rem;
   margin: 0 auto;
   margin-top: 1.125rem;
+}
+
+/* line 1, ../scss/partials/_w5ProjectBlock.scss */
+.w5ProjectBlock {
+  margin: 2rem 0 2rem 0;
+}
+/* line 3, ../scss/partials/_w5ProjectBlock.scss */
+.w5ProjectBlock a {
+  color: #FFFFFF;
+}
+/* line 6, ../scss/partials/_w5ProjectBlock.scss */
+.w5ProjectBlock .m1SingleButton {
+  margin-top: 2rem;
 }
 
 /* line 2, ../scss/partials/_footer.scss */
